@@ -1,8 +1,8 @@
-# 11 Note Taker Application
+# 11 - Note Taker Application
 
 ## Description
 
-This application uses Express with the server.js back end and saves and retrieves note data from a JSON file.
+This application uses Express within the server.js file back end, and saves and retrieves note data from a JSON file.
 The application can be deployed in Heroku.
 
 

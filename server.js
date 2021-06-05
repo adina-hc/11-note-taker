@@ -12,7 +12,7 @@ let PORT = process.env.PORT || 3001;
 // 3. Middleware needed for url, json and static express methods
 app.use(express.urlencoded({ extended: true })); // recognizes incoming request Object as strings or arrays
 app.use(express.json()); // recognizes incoming request Object as a JSON Object
-app.use(express.static('public')); 
+app.use(express.static('public')); // for static files
 
 // 4. Send HTML notes to client
 app.get("/notes", (req, res) => {
